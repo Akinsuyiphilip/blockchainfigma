@@ -1,0 +1,66 @@
+
+:root{
+    --color1:#00DD9C;
+    --color2:#00E3A5;
+    --nav-bg:#09251E;
+    --textwhite:#F5FBF2;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./components/images/image.png), url(./components/images/image.png);
+    background-color: black;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+
+    .nav-box{
+        
+
+        .navcurve{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border-radius: 4rem;
+            background-color: rgba(9, 37, 30,.9);
+            padding: 2rem;
+            align-items: center;
+            margin: 1.3rem 3rem;
+
+            .navimg{
+                width: 30%;
+            }
+            .linkpage{
+                display: flex;
+                a{
+                    text-decoration: none;
+                    color: var(--textwhite);
+                    padding-right: 1.5rem;
+                    position: relative;
+                }
+              .activenav{
+                color: var(--color2);
+              }
+                .activenav::before{
+                    border-bottom: .1rem solid var(--color2);
+                    position:absolute;
+                    display:block; content:'';
+                    left:0; right:50%; bottom:0;
+                }
+            }
+            .button{
+                a{
+                    text-decoration: none;
+                    color: var(--textwhite);
+                    padding-right: 1.5rem;
+                    border: .1rem solid var(--color2);
+                    padding: 1rem 1.3rem;
+                }
+            }
+
+        }
+    }
+}
