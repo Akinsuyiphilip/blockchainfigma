@@ -1,8 +1,9 @@
 :root {
-  --color1:#00DD9C;
-  --color2:#00E3A5;
-  --nav-bg:#09251E;
-  --textwhite:#F5FBF2;
+  --color1: #00DD9C;
+  --color2: #00E3A5;
+  --nav-bg: #09251E;
+  --textwhite: #F5FBF2;
+  --textgrey: #80AB9E;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
   background-image: url(./components/images/image.png), url(./components/images/image.png);
   background-color: black;
   background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
   font-family: "Poppins", sans-serif;
 }
@@ -21,7 +23,7 @@ body .nav-box .navcurve {
   flex-wrap: wrap;
   justify-content: space-between;
   border-radius: 4rem;
-  background-color: rgba(9, 37, 30, 0.9);
+  background-color: rgba(9, 37, 30, 0.3);
   padding: 2rem;
   align-items: center;
   margin: 1.3rem 3rem;
@@ -56,4 +58,29 @@ body .nav-box .navcurve .button a {
   padding-right: 1.5rem;
   border: 0.1rem solid var(--color2);
   padding: 1rem 1.3rem;
+}
+body .home {
+  margin: 2rem 3rem 9rem 4rem;
+}
+body .home .lay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .home .lay .texts h3 {
+  color: var(--textgrey);
+  font-size: 28px;
+}
+body .home .lay .texts h1 {
+  color: var(--textwhite);
+}
+body .home .lay .homeimg img {
+  height: 30rem;
+}
+body .home .button a {
+  text-decoration: none;
+  color: black;
+  background-color: var(--color2);
+  padding: 1rem 2rem;
+  box-shadow: -7px 9px 20px #00E3A5;
 }/*# sourceMappingURL=index.css.map */
