@@ -126,7 +126,7 @@ body .bid .achievement .worldimg img {
   height: 40rem;
 }
 body .sponsors {
-  margin: 10rem 8rem;
+  margin: 10rem 4rem;
   background-color: #091D18;
   padding: 4rem 5.5rem;
   border-radius: 7rem;
@@ -141,4 +141,51 @@ body .sponsors .elements img {
   opacity: 50%;
   height: 1.4rem;
   text-align: center;
+}
+body .group55 {
+  background-color: rgba(9, 37, 30, 0.3843137255);
+  margin: 2rem 14rem 2rem 0;
+  border-bottom-right-radius: 18rem;
+  border-top-right-radius: 18rem;
+}
+body .group55 .cober {
+  background: url(./components/images/group55bg.png);
+  margin-right: 18rem;
+}
+body .group55 .cober .grpcon {
+  display: flex;
+  flex-direction: row;
+  margin: 6rem 5rem 0;
+  padding: 4rem 0;
+}
+body .group55 .cober .grpcon .text {
+  padding-right: 31rem;
+}
+body .group55 .cober .grpcon .text h2 {
+  color: #F5FBF2;
+  font-size: 36px;
+}
+body .group55 .cober .grpcon .text p {
+  color: #80AB9E;
+  font-size: 20px;
+  padding-bottom: 5rem;
+}
+body .group55 .cober .grpcon .text a {
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+  border: 0.2rem solid var(--color2);
+  margin: 2rem 0 0;
+  color: var(--textwhite);
+}
+body .group55 .cober .grpcon .img {
+  position: relative;
+}
+body .group55 .cober .grpcon .img img {
+  position: absolute;
+  height: 620px;
+  top: -4rem;
+  left: -27rem;
 }/*# sourceMappingURL=index.css.map */

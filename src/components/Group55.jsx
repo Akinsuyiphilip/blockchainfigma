@@ -5,6 +5,9 @@ function Group55() {
 return (
 <>
     <div className="group55">
+        <div className="cober">
+
+      
         <div className="grpcon">
             <div className="text">
                 <h2>About Us</h2>
@@ -12,7 +15,8 @@ return (
 
                     A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                     the industry's standard dummy text ever since the 1500s, when an unknown
-
+                    <br />
+                    <br />
                     printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
                     since the 1500s, when an unknown
                 </p>
@@ -21,6 +25,7 @@ return (
             <div className="img">
                 <img src={group55} alt="" />
             </div>
+        </div>
         </div>
     </div>
 </>
