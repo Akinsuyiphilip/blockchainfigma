@@ -1,12 +1,17 @@
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
+import Achievements from "./components/Achievements";
+import Group55 from "./components/Group55";
+import Navhome from "./components/Navhome";
+import Sponsors from "./components/Sponsors";
+
 
 
 function App() {
   return (
     <div className="App">
-     <Navbar />
-     <Home />
+     <Navhome />
+     <Achievements />
+     <Sponsors />
+     <Group55 />
     </div>
   );
 }

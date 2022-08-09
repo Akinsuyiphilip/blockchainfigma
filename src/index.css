@@ -10,14 +10,20 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #0D0D0D;
+  font-family: "Poppins", sans-serif;
+}
+body .navhome {
   background-image: url(./components/images/image.png), url(./components/images/image.png);
-  background-color: black;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
-body .nav-box .navcurve {
+body .navhome .nav-box {
+  padding-top: 4rem;
+}
+body .navhome .nav-box .navcurve {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -26,24 +32,24 @@ body .nav-box .navcurve {
   background-color: rgba(9, 37, 30, 0.3);
   padding: 2rem;
   align-items: center;
-  margin: 1.3rem 3rem;
+  margin: 0rem 3rem;
 }
-body .nav-box .navcurve .navimg {
+body .navhome .nav-box .navcurve .navimg {
   width: 30%;
 }
-body .nav-box .navcurve .linkpage {
+body .navhome .nav-box .navcurve .linkpage {
   display: flex;
 }
-body .nav-box .navcurve .linkpage a {
+body .navhome .nav-box .navcurve .linkpage a {
   text-decoration: none;
   color: var(--textwhite);
   padding-right: 1.5rem;
   position: relative;
 }
-body .nav-box .navcurve .linkpage .activenav {
+body .navhome .nav-box .navcurve .linkpage .activenav {
   color: var(--color2);
 }
-body .nav-box .navcurve .linkpage .activenav::before {
+body .navhome .nav-box .navcurve .linkpage .activenav::before {
   border-bottom: 0.1rem solid var(--color2);
   position: absolute;
   display: block;
@@ -52,35 +58,87 @@ body .nav-box .navcurve .linkpage .activenav::before {
   right: 50%;
   bottom: 0;
 }
-body .nav-box .navcurve .button a {
+body .navhome .nav-box .navcurve .button a {
   text-decoration: none;
   color: var(--textwhite);
   padding-right: 1.5rem;
   border: 0.1rem solid var(--color2);
   padding: 1rem 1.3rem;
 }
-body .home {
-  margin: 2rem 3rem 9rem 4rem;
+body .navhome .home {
+  margin: 2rem 3rem 0;
 }
-body .home .lay {
+body .navhome .home .lay {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-body .home .lay .texts h3 {
+body .navhome .home .lay .texts h3 {
   color: var(--textgrey);
   font-size: 28px;
 }
-body .home .lay .texts h1 {
+body .navhome .home .lay .texts h1 {
   color: var(--textwhite);
 }
-body .home .lay .homeimg img {
+body .navhome .home .lay .homeimg img {
   height: 30rem;
 }
-body .home .button a {
+body .navhome .home .button a {
   text-decoration: none;
   color: black;
   background-color: var(--color2);
   padding: 1rem 2rem;
   box-shadow: -7px 9px 20px #00E3A5;
+  border-radius: 1rem;
+}
+body .navhome .home .button a:hover {
+  padding: 0.5rem 1rem;
+  box-shadow: -4px 7px 15px #00E3A5;
+  border-radius: 0.5rem;
+}
+body .bid .achievement {
+  margin: 5rem 4rem 0;
+}
+body .bid .achievement .texts {
+  color: var(--textwhite);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .bid .achievement .texts .dip {
+  color: #80AB9E;
+  font-size: 24px;
+}
+body .bid .achievement .texts .dipper {
+  font-size: 32px;
+}
+body .bid .achievement .texts .foil {
+  display: flex;
+}
+body .bid .achievement .texts .foil .padarea {
+  padding: 1.2rem;
+  text-align: center;
+}
+body .bid .achievement .texts .foil .padarea h2 {
+  color: var(--color2);
+}
+body .bid .achievement .worldimg img {
+  height: 40rem;
+}
+body .sponsors {
+  margin: 10rem 8rem;
+  background-color: #091D18;
+  padding: 4rem 5.5rem;
+  border-radius: 7rem;
+}
+body .sponsors .elements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .sponsors .elements img {
+  text-align: center;
+  opacity: 50%;
+  height: 1.4rem;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
