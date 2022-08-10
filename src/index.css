@@ -355,8 +355,9 @@ body .footer .leftside img {
 }
 body .footer .leftside p {
   color: #80AB9E;
-  font-size: 18px;
-  padding-right: -5rem;
+  font-size: 17px;
+  padding-top: 4rem;
+  padding-right: 10rem;
 }
 body .footer .leftside h4 {
   color: #F5FBF2;
@@ -371,7 +372,7 @@ body .footer .leftside .socials img {
   padding-right: 1rem;
 }
 body .footer .rightside {
-  margin: 0 18rem 0 4rem;
+  margin: 0 10rem 0 4rem;
 }
 body .footer .rightside h2 {
   color: #F5FBF2;
@@ -403,4 +404,30 @@ body .footer .rightside .input button {
 body .footer .rightside hr {
   color: #F5FBF2;
   height: 0.1px;
+}
+body .footer .rightside .letdivided {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body .footer .rightside .letdivided .first,
+body .footer .rightside .letdivided .second {
+  display: flex;
+  flex-direction: column;
+}
+body .footer .rightside .letdivided .first h4,
+body .footer .rightside .letdivided .second h4 {
+  font-size: 18px;
+  color: #F5FBF2;
+}
+body .footer .rightside .letdivided .first .links,
+body .footer .rightside .letdivided .second .links {
+  display: flex;
+  flex-direction: column;
+}
+body .footer .rightside .letdivided .first a,
+body .footer .rightside .letdivided .second a {
+  text-decoration: none;
+  color: #F5FBF2;
+  padding-bottom: 1rem;
 }/*# sourceMappingURL=index.css.map */
