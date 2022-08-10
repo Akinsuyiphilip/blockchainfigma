@@ -12,6 +12,7 @@ body {
   box-sizing: border-box;
   background-color: #0D0D0D;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 body .navhome {
   background-image: url(./components/images/image.png), url(./components/images/image.png);
@@ -150,16 +151,16 @@ body .group55 {
 }
 body .group55 .cober {
   background: url(./components/images/group55bg.png);
-  margin-right: 18rem;
+  margin-right: 9rem;
 }
 body .group55 .cober .grpcon {
   display: flex;
   flex-direction: row;
-  margin: 6rem 5rem 0;
-  padding: 4rem 0;
+  margin: 3rem 3rem 0;
+  padding: 2rem 0;
 }
 body .group55 .cober .grpcon .text {
-  padding-right: 31rem;
+  padding-right: 25rem;
 }
 body .group55 .cober .grpcon .text h2 {
   color: #F5FBF2;
@@ -187,7 +188,7 @@ body .group55 .cober .grpcon .img img {
   position: absolute;
   height: 620px;
   top: -4rem;
-  left: -27rem;
+  left: -20rem;
 }
 body .howto {
   background: #0A1619;
@@ -223,7 +224,7 @@ body .howto .consulting .textlogo img {
   padding-top: 2.3rem;
 }
 body .howto .consulting .textlogo .texts {
-  padding: 0 20rem 0 1.2rem;
+  padding: 0 6rem 0 1.2rem;
 }
 body .howto .consulting .textlogo .texts h3 {
   color: var(--textwhite);
@@ -242,7 +243,7 @@ body .howto .research {
   justify-content: flex-start;
   align-items: center;
   text-align: right;
-  margin: 5rem 12rem 0 0;
+  margin: 5rem 10rem 0 0;
   padding: 1rem 0 1rem 6rem;
   background-image: url(./components/images/howtoimages/consubg.png);
   background-repeat: no-repeat;
@@ -256,13 +257,13 @@ body .howto .research .textlogo {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  padding-right: 3rem;
+  padding-right: 4rem;
 }
 body .howto .research .textlogo img {
   padding-top: 2.3rem;
 }
 body .howto .research .textlogo .texts {
-  padding: 0 1.2rem 0 17rem;
+  padding: 0 1.2rem 0 5rem;
 }
 body .howto .research .textlogo .texts h3 {
   color: var(--textwhite);
@@ -288,14 +289,14 @@ body .howto .link a {
   border: 0.2rem solid var(--color2);
 }
 body .community {
-  margin: 6rem 9rem 6rem 0;
+  margin: 6rem 0;
   background-image: url(./components/images/communityimages/combg.png);
   background-color: #0B1512;
   background-size: conver;
   background-repeat: no-repeat;
   align-items: center;
   text-align: center;
-  padding: 5rem 9rem;
+  padding: 3rem 9rem;
   border-top-right-radius: 19rem;
   border-bottom-right-radius: 17rem;
 }
@@ -311,7 +312,7 @@ body .community .elements .userbox {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 3rem 19rem;
+  padding: 3rem 10rem;
   border-radius: 13rem;
   align-items: center;
   position: relative;
