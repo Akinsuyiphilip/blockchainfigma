@@ -334,4 +334,73 @@ body .community .elements .userbox .leftarrow {
 body .community .elements .userbox .rightarrow {
   position: absolute;
   right: -1.7rem;
+}
+body .footer {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem 5rem;
+  margin-top: 18rem;
+  background: url(./components/images/worldpic.png), #092326;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #072427;
+}
+body .footer .leftside {
+  padding-top: 4rem;
+  border-right: 0.2rem solid rgba(255, 255, 255, 0.5647058824);
+}
+body .footer .leftside img {
+  height: 2rem;
+}
+body .footer .leftside p {
+  color: #80AB9E;
+  font-size: 18px;
+  padding-right: -5rem;
+}
+body .footer .leftside h4 {
+  color: #F5FBF2;
+  font-size: 24px;
+}
+body .footer .leftside .socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body .footer .leftside .socials img {
+  padding-right: 1rem;
+}
+body .footer .rightside {
+  margin: 0 18rem 0 4rem;
+}
+body .footer .rightside h2 {
+  color: #F5FBF2;
+  font-size: 32px;
+}
+body .footer .rightside .input {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-bottom: 3rem;
+}
+body .footer .rightside .input input {
+  padding: 0.7rem 7rem;
+  outline: none;
+  background: none;
+  align-items: left;
+  border: 0.1rem solid var(--color2);
+  color: #00E3A5;
+}
+body .footer .rightside .input button {
+  position: absolute;
+  padding: 0.79rem 1rem;
+  top: 0rem;
+  left: 20rem;
+  background-color: var(--color1);
+  border: none;
+  outline: none;
+}
+body .footer .rightside hr {
+  color: #F5FBF2;
+  height: 0.1px;
 }/*# sourceMappingURL=index.css.map */

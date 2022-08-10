@@ -6,6 +6,7 @@ import Navhome from "./components/Navhome";
 import Sponsors from "./components/Sponsors";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "./components/Footer";
 
 
 AOS.init();
@@ -21,6 +22,7 @@ function App() {
      <Group55 />
      <Howto />
      <Community />
+     <Footer />
     </div>
   );
 }
