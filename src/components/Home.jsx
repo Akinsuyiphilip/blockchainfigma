@@ -4,7 +4,7 @@ import citypeg from './images/Citypeg.png'
 function Home() {
 return (
 <>
-    <div className="home">
+    <div className="home" data-aos="fade-right" data-aos-duration="1500">
 
         <div className="lay">
 

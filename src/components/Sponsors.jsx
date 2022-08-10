@@ -7,7 +7,7 @@ import binance from './images/binance.png';
 function Sponsors() {
   return (
     <>
-    <div className="sponsors">
+    <div className="sponsors" data-aos="fade-down">
         <div className="elements">
             <img src={coinbase} alt="" />
             <img src={blockchain} alt="" />

@@ -4,7 +4,7 @@ import group55 from './images/Group55.png'
 function Group55() {
 return (
 <>
-    <div className="group55">
+    <div className="group55"  data-aos="fade-right">
         <div className="cober">
 
       
