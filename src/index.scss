@@ -17,7 +17,7 @@ body {
     overflow-x: hidden;
 
     .navhome {
-        background-image: url(./components/images/image.png), url(./components/images/image.png);
+        background-image: url(../public/images/image.png), url(../public/images/image.png);
         background-size: cover;
         background-position: top;
         background-repeat: no-repeat;
@@ -202,7 +202,7 @@ body {
         border-top-right-radius: 18rem;
 
         .cober {
-            background: url(./components/images/group55bg.png);
+            background: url(../public/images/group55bg.png);
             margin-right: 9rem;
 
             .grpcon {
@@ -272,7 +272,7 @@ body {
             text-align: left;
             margin: 5rem 0 0 12rem;
             padding: 0.5rem 0 1rem 6rem;
-            background-image: url(./components/images/howtoimages/consubg.png);
+            background-image: url(../public/images/consubg.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-color: #00dd9b1b;
@@ -318,7 +318,7 @@ body {
             text-align: right;
             margin: 5rem 10rem 0 0;
             padding: 1rem 0 1rem 6rem;
-            background-image: url(./components/images/howtoimages/consubg.png);
+            background-image:url(../public/images/consubg.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-color: #00dd9b1b;
@@ -376,7 +376,7 @@ body {
 
     .community {
         margin: 6rem 0 ;
-        background-image: url(./components/images/communityimages/combg.png);
+        background-image:url(../public/images/combg.png);
         background-color: #0B1512;
         background-size: conver;
         background-repeat: no-repeat;
@@ -393,7 +393,7 @@ body {
             }
 
             .userbox {
-                background: url(./components/images/communityimages/Vector.png);
+                background: url(../public/images/Vector.png);
                 background-size: 10%;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -438,7 +438,7 @@ body {
         flex-direction: row;
         padding: 4rem 5rem;
         margin-top: 18rem;
-        background: url(./components/images/worldpic.png), #092326;
+        background: url(../public/images/worldpic.png), #092326;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -533,5 +533,15 @@ body {
                 }
             }
         }
+    }
+
+
+
+
+
+    @media (max-width: 720px ) {
+        
+        
+
     }
 }

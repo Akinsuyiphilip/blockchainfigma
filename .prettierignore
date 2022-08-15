@@ -1,0 +1,12 @@
+package.json
+package-lock.json
+public
+out
+.babelrc
+.prettierrc
+*.json
+*.md
+styles
+.github
+src/index.css
+src/index.scss

@@ -15,7 +15,7 @@ body {
   overflow-x: hidden;
 }
 body .navhome {
-  background-image: url(./components/images/image.png), url(./components/images/image.png);
+  background-image: url(../public/images/image.png), url(../public/images/image.png);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -150,7 +150,7 @@ body .group55 {
   border-top-right-radius: 18rem;
 }
 body .group55 .cober {
-  background: url(./components/images/group55bg.png);
+  background: url(../public/images/group55bg.png);
   margin-right: 9rem;
 }
 body .group55 .cober .grpcon {
@@ -207,7 +207,7 @@ body .howto .consulting {
   text-align: left;
   margin: 5rem 0 0 12rem;
   padding: 0.5rem 0 1rem 6rem;
-  background-image: url(./components/images/howtoimages/consubg.png);
+  background-image: url(../public/images/consubg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 221, 155, 0.1058823529);
@@ -245,7 +245,7 @@ body .howto .research {
   text-align: right;
   margin: 5rem 10rem 0 0;
   padding: 1rem 0 1rem 6rem;
-  background-image: url(./components/images/howtoimages/consubg.png);
+  background-image: url(../public/images/consubg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 221, 155, 0.1058823529);
@@ -290,7 +290,7 @@ body .howto .link a {
 }
 body .community {
   margin: 6rem 0;
-  background-image: url(./components/images/communityimages/combg.png);
+  background-image: url(../public/images/combg.png);
   background-color: #0B1512;
   background-size: conver;
   background-repeat: no-repeat;
@@ -304,7 +304,7 @@ body .community .elements h2 {
   color: var(--textwhite);
 }
 body .community .elements .userbox {
-  background: url(./components/images/communityimages/Vector.png);
+  background: url(../public/images/Vector.png);
   background-size: 10%;
   background-repeat: no-repeat;
   background-position: center;
@@ -340,7 +340,7 @@ body .footer {
   flex-direction: row;
   padding: 4rem 5rem;
   margin-top: 18rem;
-  background: url(./components/images/worldpic.png), #092326;
+  background: url(../public/images/worldpic.png), #092326;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
