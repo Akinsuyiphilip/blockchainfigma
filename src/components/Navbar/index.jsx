@@ -1,26 +1,27 @@
 import React from "react";
+import { Navbar1, Div1, Divv, Divvv, Divlink, Buttonav } from "./Navbar.styled";
 
 const Navbar = () => (
 	<>
-		<div className="nav-box">
-			<div className="navcurve">
-				<div className="navimg">
+		<Navbar1>
+			<Div1>
+				<Divv>
 					<img src="./images/btech.png" alt="" />
-				</div>
-				<div className="linkpage">
-					<a href="./" className="activenav">
+				</Divv>
+				<Divvv className="linkpage">
+					<Divlink href="./" className="active">
 						About Us
-					</a>
-					<a href="./">Services</a>
-					<a href="./">How it works</a>
-					<a href="./">Community</a>
-				</div>
+					</Divlink>
+					<Divlink href="./">Services</Divlink>
+					<Divlink href="./">How it works</Divlink>
+					<Divlink href="./">Community</Divlink>
+				</Divvv>
 
 				<div className="button">
-					<a href="./">Join for Free</a>
+					<Buttonav href="./">Join for Free</Buttonav>
 				</div>
-			</div>
-		</div>
+			</Div1>
+		</Navbar1>
 	</>
 );
 

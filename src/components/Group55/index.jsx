@@ -1,10 +1,11 @@
 import React from "react";
+import { Grcober, Grcon, Grcontext, Grimgdiv, Grlink, Grouphome } from "./Group.styled";
 
 const Group55 = () => (
-	<div className="group55">
-		<div className="cober">
-			<div className="grpcon">
-				<div className="text">
+	<Grouphome className="">
+		<Grcober className="cober">
+			<Grcon className="grpcon">
+				<Grcontext className="text">
 					<h2>About Us</h2>
 					<p>
 						A Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -15,14 +16,14 @@ const Group55 = () => (
 						printing and typesetting industry. Lorem Ipsum has been the industry`&#39`s
 						standard dummy text ever since the 1500s, when an unknown
 					</p>
-					<a href="./">Learn More</a>
-				</div>
-				<div className="img">
+					<Grlink href="./">Learn More</Grlink>
+				</Grcontext>
+				<Grimgdiv className="img">
 					<img src="./images/Group55.png" alt="" />
-				</div>
-			</div>
-		</div>
-	</div>
+				</Grimgdiv>
+			</Grcon>
+		</Grcober>
+	</Grouphome>
 );
 
 export default Group55;

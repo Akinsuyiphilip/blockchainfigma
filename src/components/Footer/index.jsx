@@ -1,9 +1,22 @@
 import React from "react";
+import {
+	Fbtn,
+	Fdivide,
+	Finput,
+	Fleftside,
+	Flinks,
+	Flogo,
+	Fmain,
+	Fright,
+	Frinput,
+	Fsocials,
+	Fsubs,
+} from "./Footer.styled";
 
 const Footer = () => (
-	<div className="footer">
-		<div className="leftside">
-			<img src="./images/btech.png" alt="" />
+	<Fmain>
+		<Fleftside>
+			<Flogo src="./images/btech.png" alt="" />
 			<p>
 				A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 				Ipsum has been the industrys standard dummy text ever since the 1500s, When an
@@ -11,45 +24,45 @@ const Footer = () => (
 			</p>
 			<h4>Social Media</h4>
 
-			<div className="socials">
+			<Fsocials className="socials">
 				<img src="./images/facebook.png" alt="" />
 				<img src="./images/twitter.png" alt="" />
 				<img src="./images/instagram.png" alt="" />
-			</div>
+			</Fsocials>
 			<p>All rights reserved@2021</p>
-		</div>
-		<div className="rightside">
+		</Fleftside>
+		<Fright>
 			<h2>Newslatter</h2>
-			<div className="input">
-				<input type="email" placeholder="Email Address" />
-				<button type="submit">Submit</button>
-			</div>
+			<Frinput>
+				<Finput type="email" placeholder="Email Address" />
+				<Fbtn type="submit">Submit</Fbtn>
+			</Frinput>
 
 			<hr />
 
-			<div className="letdivided">
-				<div className="first">
-					<h4 className="h4drink">About Us</h4>
-					<div className="links">
+			<Fdivide>
+				<Fsubs>
+					<h4>About Us</h4>
+					<Flinks>
 						<a href="./">Whitepaper</a>
 						<a href="./">Blog</a>
 						<a href="./">Activity</a>
-					</div>
-				</div>
+					</Flinks>
+				</Fsubs>
 
-				<div className="second">
+				<Fsubs className="second">
 					<h4 className="h4drink">Support</h4>
 
-					<div className="links">
+					<Flinks className="links">
 						<a href="./">Help & Support</a>
 						<a href="./">Community</a>
 						<a href="./">Author Profile</a>
 						<a href="./">Contact</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+					</Flinks>
+				</Fsubs>
+			</Fdivide>
+		</Fright>
+	</Fmain>
 );
 
 export default Footer;

@@ -1,21 +1,20 @@
 import React from "react";
+import { Homebtn, Homediv, Homeh1, Homeh3, Homeimg, Homelay } from "./Home.styled";
 
 const Home = () => (
 	<>
-		<div className="home" data-aos="fade-right" data-aos-duration="1500">
-			<div className="lay">
-				<div className="texts">
-					<h3>Build the Future with </h3>
-					<h1>Blockchain technology and Currency</h1>
+		<Homediv data-aos="fade-right" data-aos-duration="1500">
+			<Homelay className="lay">
+				<div>
+					<Homeh3>Build the Future with </Homeh3>
+					<Homeh1>Blockchain technology and Currency</Homeh1>
 				</div>
-				<div className="homeimg">
-					<img src="./images/Citypeg.png" alt="" />
-				</div>
-			</div>
-			<div className="button">
-				<a href="./">Get Whitepaper</a>
-			</div>
-		</div>
+
+				<Homeimg src="./images/Citypeg.png" alt="" />
+			</Homelay>
+
+			<Homebtn href="./">Get Whitepaper</Homebtn>
+		</Homediv>
 	</>
 );
 

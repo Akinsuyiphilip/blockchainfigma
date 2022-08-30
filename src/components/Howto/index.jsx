@@ -1,66 +1,77 @@
 import React from "react";
+import {
+	Hconsulting,
+	Himage,
+	Hlink,
+	Howtodiv,
+	Hresearch,
+	Htextlogo,
+	Htextlogor,
+	Htextr,
+	Htexts,
+} from "./Howto.styled";
 
 const Howto = () => (
 	<>
-		<div className="howto" data-aos="fade-down">
+		<Howtodiv data-aos="fade-down">
 			<h2>How Do We Work Our System and Our Journey</h2>
-			<div className="consulting" data-aos="fade-left">
-				<div className="textlogo">
+			<Hconsulting data-aos="fade-left">
+				<Htextlogo>
 					<img src="./images/01.png" alt="" />
-					<div className="texts">
+					<Htexts>
 						<h3>Consulting</h3>
 						<p>
 							A Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry`&#39;`s standard dummy text
 							ever since the 1500s,{" "}
 						</p>
-					</div>
-				</div>
-				<div className="lsimg">
+					</Htexts>
+				</Htextlogo>
+				<Himage>
 					<img src="./images/constar.png" alt="" />
-				</div>
-			</div>
+				</Himage>
+			</Hconsulting>
 
-			<div className="research" data-aos="fade-right">
-				<div className="textlogo">
+			<Hresearch data-aos="fade-right">
+				<Htextlogor>
 					<img src="./images/02.png" alt="" />
-					<div className="texts">
+					<Htextr>
 						<h3>Research & Complaince</h3>
 						<p>
 							A Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry`&#39;`s standard dummy text
 							ever since the 1500s, when an unknown
 						</p>
-					</div>
-				</div>
+					</Htextr>
+				</Htextlogor>
 
-				<div className="lsimg">
+				<Himage>
 					<img src="./images/carbonchart.png" alt="" />
-				</div>
-			</div>
+				</Himage>
+			</Hresearch>
 
-			<div className=" consulting" data-aos="fade-left">
-				<div className="textlogo">
+			<Hconsulting data-aos="fade-left">
+				<Htextlogo>
 					<img src="./images/03.png" alt="" />
-					<div className="texts">
+					<Htexts>
 						<h3>Technology</h3>
 						<p>
 							A Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry`&#39;`s standard dummy text
 							ever since the 1500s, when an unknown{" "}
 						</p>
-					</div>
-				</div>
+					</Htexts>
+				</Htextlogo>
 
-				<div className="lsimg">
+				<Himage className="lsimg">
 					<img src="./images/technology.png" alt="" />
-				</div>
-			</div>
+				</Himage>
+			</Hconsulting>
 
-			<div className="link" data-aos="fade-down">
+			<Hlink data-aos="fade-down">
 				<a href="./">Let’s See More</a>
-			</div>
-		</div>
+			</Hlink>
+		</Howtodiv>
 	</>
 );
 

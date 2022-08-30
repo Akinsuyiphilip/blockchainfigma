@@ -1,17 +1,26 @@
 import React from "react";
+import {
+	Celements,
+	Chome,
+	Cimagearrow,
+	Cprofile,
+	Cright,
+	Ctexts,
+	Cuserbox,
+} from "./Community.styled";
 
 const Community = () => (
 	<>
-		<div className="community" data-aos="fade-right">
-			<div className="elements">
+		<Chome data-aos="fade-right">
+			<Celements>
 				<h2>Our community with User reviews</h2>
-				<div className="userbox">
-					<img src="./images/leftarrow.png" alt="" className="leftarrow" />
-					<div className="imgbox">
-						<img src="./images/user.png" alt="" />
+				<Cuserbox>
+					<Cimagearrow src="./images/leftarrow.png" alt="" className="leftarrow" />
+					<div>
+						<Cprofile src="./images/user.png" alt="" />
 					</div>
 
-					<div className="text">
+					<Ctexts>
 						<p>
 							A Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry`&#39;`s standard. dummy,text
@@ -20,11 +29,11 @@ const Community = () => (
 							<br />
 							-Dake M. Chile, Business Owner of Bellie
 						</p>
-					</div>
-					<img src="/images/rightarrow.png" alt="" className="rightarrow" />
-				</div>
-			</div>
-		</div>
+					</Ctexts>
+					<Cright src="/images/rightarrow.png" alt="" className="rightarrow" />
+				</Cuserbox>
+			</Celements>
+		</Chome>
 	</>
 );
 
